@@ -1,0 +1,22 @@
+{
+	"name": "YouTube Chat Reply Tracker",
+	"description": "YouTubeのチャットで、オーナーの発言にリプライ元メッセージを表示します。",
+	"version": "1.0.0",
+	"manifest_version": 3,
+	"icons": {
+		"16" : "images/icon16.png",
+		"48" : "images/icon48.png",
+		"128" : "images/icon128.png"
+	},
+	"content_scripts": [
+		{
+			"matches": ["*://www.youtube.com/live_chat*"],
+			"js": [
+				"js/jquery-3.7.1.js",
+				"js/content_script.js"
+			],
+			"run_at": "document_end",
+			"all_frames": true
+		}
+	]
+}
