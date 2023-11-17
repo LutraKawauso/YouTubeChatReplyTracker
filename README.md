@@ -3,6 +3,8 @@ YouTubeのチャットで、オーナーの発言にリプライ元メッセー�
 
 チャンネルオーナーの発言で、かつ「＠」を付けて返信をしたものが対象です。
 
+![image](https://github.com/LutraKawauso/YouTubeChatReplyTracker/assets/148268606/8a8007d0-59cd-4a96-b3bd-2ced496e003b)
+
 正確に表示できないケースがあります。リプ元メッセージの表示は参考程度に見てください。
 
 表示できない、または正確な表示にならないケース
